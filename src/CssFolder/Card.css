@@ -1,0 +1,33 @@
+.CardContainer {
+  width: 80%;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  background-color: orange;
+  margin-bottom: 9px;
+  justify-content: space-around;
+}
+
+.CardCont1 {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  justify-content: space-between;
+}
+
+.CardCont2 {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+}
+
+.BTNDelete {
+  background-color: red;
+  border: none;
+  color: white;
+}
+.BTNUpdate {
+  background-color: green;
+  border: none;
+  color: white;
+}
